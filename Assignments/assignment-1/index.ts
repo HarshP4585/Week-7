@@ -17,6 +17,6 @@ app.listen(port, () => {
 });
 
 mongoose.connect(
-  "mongodb+srv://pharsh4585:Harsh123@cluster0.xhnmrne.mongodb.net",
+  "mongodb+srv://<username>:<password>@cluster0.xhnmrne.mongodb.net",
   { dbName: "todos" }
 );
